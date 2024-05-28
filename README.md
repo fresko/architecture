@@ -34,10 +34,8 @@ Arquitedctura con estilo de microservicios  para este casos de uso que requieren
 - COntenedores
 - Servicios de integracion para sistemas externos
 - Colas
-- Funciones
-Oracle Functions es una plataforma de funciones como servicio (FaaS) totalmente administrada, multiinquilino, altamente escalable y bajo demanda. Está impulsado por el motor de código abierto Fn Project. Las funciones le permiten implementar su código y llamarlo directamente o activarlo en respuesta a eventos. Oracle Functions utiliza contenedores Docker alojados en OCI Registry.
-- Región
-Una región OCI es un área geográfica localizada que contiene uno o más centros de datos, llamados dominios de disponibilidad. Las regiones son independientes de otras regiones y grandes distancias pueden separarlas (entre países o incluso continentes).
+- Funciones Oracle Functions es una plataforma de funciones como servicio (FaaS) totalmente administrada, multiinquilino, altamente escalable y bajo demanda. Está impulsado por el motor de código abierto Fn Project. Las funciones le permiten implementar su código y llamarlo directamente o activarlo en respuesta a eventos. Oracle Functions utiliza contenedores Docker alojados en OCI Registry.
+- Región Una región OCI es un área geográfica localizada que contiene uno o más centros de datos, llamados dominios de disponibilidad. Las regiones son independientes de otras regiones y grandes distancias pueden separarlas (entre países o incluso continentes).
 - Dominios de disponibilidad
 Los dominios de disponibilidad son centros de datos independientes dentro de una región. Los recursos físicos de cada dominio de disponibilidad están aislados de los recursos de los otros dominios de disponibilidad, lo que proporciona tolerancia a fallos. Los dominios de disponibilidad no comparten servicios de infraestructura como energía, refrigeración o la red interna del dominio de disponibilidad. Por lo tanto, es poco probable que un error en un dominio de disponibilidad afecte a los demás dominios de disponibilidad de la región.
 -Motor de contenedores para Kubernetes
