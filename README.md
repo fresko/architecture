@@ -40,7 +40,7 @@ Arquitedctura con estilo de microservicios  para este casos de uso que requieren
 Los dominios de disponibilidad son centros de datos independientes dentro de una región. Los recursos físicos de cada dominio de disponibilidad están aislados de los recursos de los otros dominios de disponibilidad, lo que proporciona tolerancia a fallos. Los dominios de disponibilidad no comparten servicios de infraestructura como energía, refrigeración o la red interna del dominio de disponibilidad. Por lo tanto, es poco probable que un error en un dominio de disponibilidad afecte a los demás dominios de disponibilidad de la región.
 -Motor de contenedores para Kubernetes
 OCI Container Engine para Kubernetes es un servicio totalmente administrado, escalable y de alta disponibilidad que puede utilizar para implementar sus aplicaciones en contenedores en la nube. Usted especifica los recursos informáticos que requieren sus aplicaciones y Container Engine for Kubernetes los aprovisiona en OCI en un arrendamiento existente. Container Engine for Kubernetes utiliza Kubernetes para automatizar la implementación, el escalado y la gestión de aplicaciones en contenedores en clústeres de hosts.
- 
+ - WAF y componentes de seguirdad API JWT
     
     
 ## Topics  
